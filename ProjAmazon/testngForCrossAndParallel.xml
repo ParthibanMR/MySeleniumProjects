@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+
+ <test name="ChromeLoginTest">
+  <parameter name="browser" value="chrome" />
+        <groups>
+            <run>
+                <include name="login" />
+                
+            </run>
+        </groups>
+    <classes>
+      <class name="com.examples.CrossBrowserAndParallel"/>
+    </classes>
+  </test> 
+  
+  <!-- Test 2: edge, Search group our system DNS problem so edge & friefox won't be launch'-->
+<!--    <test name="edge_Search_Test">
+        <parameter name="browser" value="edge" />
+        <groups>
+            <run>
+                <include name="search" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.examples.CrossBrowserAndParallel" />
+        </classes>
+    </test> -->
+  
+</suite> <!-- Suite -->

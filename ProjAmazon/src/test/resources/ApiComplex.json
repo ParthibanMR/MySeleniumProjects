@@ -1,0 +1,43 @@
+{
+  "store": {
+    "book": [
+      { 
+        "category": "fiction",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "price": 10.99,
+        "ratings": [5, 4, 5]
+      },
+      { 
+        "category": "mystery",
+        "title": "Murder on the Orient Express",
+        "author": "Agatha Christie",
+        "price": 8.99,
+        "ratings": [4, 5, 4]
+      }
+    ],
+    "bicycle": {
+      "color": "red",
+      "price": 19.95
+    },
+    "electronics": [
+      {
+        "type": "tablet",
+        "brand": "Apple",
+        "features": {
+          "connectivity": ["wifi", "4G"],
+          "batteryLife": "10 hours"
+        }
+      },
+      {
+        "type": "laptop",
+        "brand": "Dell",
+        "features": {
+          "connectivity": ["wifi", "ethernet"],
+          "batteryLife": "8 hours"
+        }
+      }
+    ]
+  },
+  "expensive": 20
+}

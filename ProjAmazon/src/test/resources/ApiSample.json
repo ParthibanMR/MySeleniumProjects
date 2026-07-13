@@ -1,0 +1,20 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Leanne Graham",
+            "address": {
+                "city": "Gwenborough",
+                "zipcode": "92998-3874"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Ervin Howell",
+            "address": {
+                "city": "Wisokyburgh",
+                "zipcode": "90566-7771"
+            }
+        }
+    ]
+}

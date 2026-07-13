@@ -1,0 +1,64 @@
+{
+  "user": {
+    "id": 101,
+    "name": "John Doe",
+    "email": "johndoe@example.com",
+    "addresses": [
+      {
+        "type": "home",
+        "street": "123 Main St",
+        "city": "New York",
+        "zipcode": "10001"
+      },
+      {
+        "type": "work",
+        "street": "456 Office Rd",
+        "city": "Los Angeles",
+        "zipcode": "90001"
+      }
+    ],
+    "orders": [
+      {
+        "orderId": 5001,
+        "date": "2024-02-01",
+        "status": "Shipped",
+        "products": [
+          {
+            "productId": 2001,
+            "name": "Laptop",
+            "price": 1200.50,
+            "features": {
+              "brand": "Dell",
+              "specs": ["16GB RAM", "512GB SSD", "Intel i7"]
+            }
+          },
+          {
+            "productId": 2002,
+            "name": "Wireless Mouse",
+            "price": 25.99,
+            "features": {
+              "brand": "Logitech",
+              "specs": ["Bluetooth", "Rechargeable"]
+            }
+          }
+        ]
+      },
+      {
+        "orderId": 5002,
+        "date": "2024-01-15",
+        "status": "Delivered",
+        "products": [
+          {
+            "productId": 2003,
+            "name": "Smartphone",
+            "price": 999.99,
+            "features": {
+              "brand": "Samsung",
+              "specs": ["128GB Storage", "8GB RAM", "Triple Camera"]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
